@@ -1,0 +1,821 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {}
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {}
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {}
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {}
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "constant",
+        "inputs",
+        "name",
+        "outputs",
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "payable": {
+          "type": "boolean"
+        },
+        "stateMutability": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "payable",
+        "stateMutability",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "anonymous": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "indexed": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "indexed",
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "indexed": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "indexed",
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "indexed": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "indexed",
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "anonymous",
+        "inputs",
+        "name",
+        "type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "anonymous": {
+          "type": "boolean"
+        },
+        "inputs": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "indexed": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "indexed",
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "indexed": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "indexed",
+                "name",
+                "type"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "indexed": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "indexed",
+                "name",
+                "type"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "anonymous",
+        "inputs",
+        "name",
+        "type"
+      ]
+    }
+  ]
+}
