@@ -1,0 +1,27 @@
+{
+  "name": "abi-source",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/abi-source.git"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/abi-source/issues"
+  },
+  "homepage": "https://github.com/sambacha/abi-source#readme",
+  "dependencies": {
+    "@types/node": "^16.11.41",
+    "json-schema-to-typescript": "^10.1.5",
+    "ts-json-schema-generator": "^1.0.0",
+    "typescript": "^4.7.4"
+  }
+}
